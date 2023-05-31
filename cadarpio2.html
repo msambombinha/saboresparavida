@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio de Salgados</title>
+  <style>
+   body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("fundo.jpg");
+    }
+    
+    header {
+      background-color: rgb(202, 106, 202);
+      padding: 20px;
+      text-align: center;
+      background-image: url("fundo.jpg");
+    }
+    
+    h1 {
+      margin: 0;
+      color: #fff;
+    }
+    
+    nav {
+      background-color: rgb(238, 195, 238);
+      color: violet; 
+      padding: 10px;
+
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 50px;
+    }
+    
+    .menu-item {
+      display: flex;
+      margin-bottom: 40px;
+      border: 1px solid  rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      padding: 20px;
+    }
+    
+    .menu-item img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+    
+    .menu-item-info {
+      flex-grow: 1;
+    }
+    
+    .menu-item-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+    }
+    
+    .menu-item-description {
+      margin: 10px 0;
+      color: #777;
+    }
+    
+    .menu-item-price {
+      font-weight: bold;
+      color: #ff5f00;
+    }
+    
+    .menu-item-right {
+      margin-left: auto;
+      text-align: right;
+    }
+    .footer{
+    background-color:violet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cardápio de Salgados</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">inicio</a></li>
+      <li><a href="cadarpio.html">doces</a></li>
+      <li><a href="cadarpio2.html">salgados</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="menu-item">
+      <img src="coxinha.jpg" alt="Coxinha">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">Coxinha</h2>
+        <p class="menu-item-description">Coxinha de frango com massa crocante e recheio suculento.</p>
+        <p class="menu-item-price">"2500,00Kz</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    
+    <div class="menu-item">
+      <img src="pastel.jpg" alt="Pastel">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">Pastel</h2>
+        <p class="menu-item-description">Pastel assado ou frito com diversos recheios deliciosos.</p>
+        <p class="menu-item-price">2000,00KZ</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    
+    <div class="menu-item">
+      <img src="ressois.jpg" alt="ressois">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">ressois</h2>
+        <p class="menu-item-description">ressois com massa leve e recheio saboroso.</p>
+        <p class="menu-item-price">2500,00KZ</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    <div class="menu-item">
+        <img src="fular.jpg" alt="fular">
+        <div class="menu-item-info">
+          <h2 class="menu-item-title">fular</h2>
+          <p class="menu-item-description">fular com massa leve e recheio saboroso.</p>
+          <p class="menu-item-price">2500,00KZ</p>
+        </div>
+        <div class="menu-item-right">
+          <button>comprar</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="enrroladinho.jpg" alt="enrroladinho">
+        <div class="menu-item-info">
+          <h2 class="menu-item-title">enrroladinhos de salsicha e chouriço</h2>
+          <p class="menu-item-description">enrroladinhos super saborosos.</p>
+          <p class="menu-item-price">2500,00KZ</p>
+        </div>
+        <div class="menu-item-right">
+          <button>comprar</button>
+        </div>
+      </div>
+    
+    
+  </section>
+  <div class="footer">
+    <p>&copy; Copyright 2023 - Design by Maria Sambomba
+      <br>
+      whatsapp 945043957
+    facebook Sabor para vida
+    instagram @saborpara_vida
+    </p>
+  </div>
+</body>
+</html>

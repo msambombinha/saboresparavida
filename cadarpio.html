@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio de Salgados</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("fundo.jpg");
+    }
+    
+    header {
+      background-color: rgb(202, 106, 202);
+      padding: 20px;
+      text-align: center;
+      background-image: url("fundo.jpg");
+    }
+    
+    h1 {
+      margin: 0;
+      color: #fff;
+    }
+    
+    nav {
+      background-color: rgb(238, 195, 238);
+      color: violet; 
+      padding: 10px;
+
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 50px;
+    }
+    
+    .menu-item {
+      display: flex;
+      margin-bottom: 40px;
+      border: 1px solid  rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      padding: 20px;
+    }
+    
+    .menu-item img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+    
+    .menu-item-info {
+      flex-grow: 1;
+    }
+    
+    .menu-item-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+    }
+    
+    .menu-item-description {
+      margin: 10px 0;
+      color: #777;
+    }
+    
+    .menu-item-price {
+      font-weight: bold;
+      color: #ff5f00;
+    }
+    
+    .menu-item-right {
+      margin-left: auto;
+      text-align: right;
+    }
+    .footer{
+    background-color:violet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cardapio de doces</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">inicio</a></li>
+      <li><a href="cadarpio.html">doces</a></li>
+      <li><a href="cadarpio2.html">salgados</a></li>
+    </ul>
+  </nav>
+  
+  
+  <section>
+    <div class="menu-item">
+      <img src="bolo chocolate.jpg" alt="bolo de chocolate">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">bolo de chocolate</h2>
+        <p class="menu-item-description">bolo de chocolate com um  recheio cremoso e deliciso</p>
+        <p class="menu-item-price">8000,00kZ</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    
+    <div class="menu-item">
+      <img src="bolo2.jpg" alt="bolo de cenoura com cobertura de chocolate">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">bolo de cenoura com cobertura de chocolate</h2>
+        <p class="menu-item-description">massa fofa e deleciosa com uma ganache de chocolate perfeita</p>
+        <p class="menu-item-price">6000,00KZ</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="pudim.jpg" alt="pudim">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">Pudim</h2>
+        <p class="menu-item-description">pudim de leite super gostoso.</p>
+        <p class="menu-item-price">3500,00KZ</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="musse.jpg" alt="musse de chocolate">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">musse de chocolate</h2>
+        <p class="menu-item-description"> masse super leve e gostosa.</p>
+        <p class="menu-item-price">3500,00KZ</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="limao.jpg" alt="torta de limão">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">torta de limão</h2>
+        <p class="menu-item-description">torta com massa leve e recheio saboroso.</p>
+        <p class="menu-item-price">3500,00KZ</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    
+    <div class="menu-item">
+      <img src="brigadeiro.jpg" alt="brigadeiro">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">brigadeiro</h2>
+        <p class="menu-item-description"> brigadeiro super gremoso.</p>
+        <p class="menu-item-price">3000,00KZ</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    
+    <div class="menu-item">
+      <img src="argolas.jpg" alt="argolas">
+      <div class="menu-item-info">
+        <h2 class="menu-item-title">bolas de berlim e argolas de açucar e canela e coco </h2>
+        <p class="menu-item-description"> massa leve e super gostosa.</p>
+        <p class="menu-item-price">2000,00kz</p>
+      </div>
+      <div class="menu-item-right">
+        <button>comprar</button>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&copy; Copyright 2023 - Design by Maria Sambomba
+        <br>
+        whatsapp 945043957
+      facebook Sabor para vida
+      instagram @saborpara_vida
+      </p>
+    </div>
+    
+    <!-- Mais itens aqui -->
+    
+  </section>
+</body>
+</html>
